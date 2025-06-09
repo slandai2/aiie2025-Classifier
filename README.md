@@ -34,9 +34,12 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
 
 
  ## Example Usage
+
+ After training the model on a dataset of resized images, we tested it using images from the test set to see how well it performs on new, unseen data. As shown in the examples below, the model was able to accurately classify whether the input image was a muffin or a chihuahua, demonstrating that it successfully learned to recognize the visual patterns that separate the two.
  
  ![Untitled](https://github.com/user-attachments/assets/68867006-50a3-4e5d-ab17-5601b30e26e6)
  ![Untitled-1](https://github.com/user-attachments/assets/1a04cbea-c110-4f1d-9af1-ff0c95e57a19)
+
 
 
  ![Untitled](https://github.com/user-attachments/assets/c18c3d86-d3f7-47cd-afca-f756671a36b4)

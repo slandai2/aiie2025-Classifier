@@ -4,7 +4,9 @@
  
 ![muffin-meme2](https://github.com/user-attachments/assets/cea2d46a-9d9b-47ef-8331-0bfe0209f60a)
 
- 
+
+## Dataset information 
+
  Our team imported an existing dataset from Kaggle that contained testing and training datasets for muffins and chihuahuas. The dataset consists of 6,000 images of muffins and dogs.
 
 ```
@@ -17,6 +19,8 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
 
  
  *Dataset source: https://www.kaggle.com/datasets/samuelcortinhas/muffin-vs-chihuahua-image-classification/data*
+
+### Dataset preprocessing 
 
  The dataset was defined to a path and local path. The images from said dataset were resized to a consistent height and width (256x256) before being placed into a separate dataset. 
 

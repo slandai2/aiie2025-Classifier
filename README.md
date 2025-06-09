@@ -28,7 +28,7 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
 
  ## Model
 
- We created a simple CNN model starting with 3 Convolutional Layers each of them followed by Max Pooling Layers. 
+ We created a simple CNN model starting with 3 Convolutional Layers, each of them followed by Max Pooling Layers. After several convolutional and max pooling layers, a flatten layer was added. To help the model make decisions, we added a Dense layer with 512 neurons and ReLU activation, and finally a single output neuron with a sigmoid function — since we’re doing binary classification: muffin or chihuahua.
 
  ![Untitled](https://github.com/user-attachments/assets/c18c3d86-d3f7-47cd-afca-f756671a36b4)
 

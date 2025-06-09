@@ -40,7 +40,14 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
  ![Untitled](https://github.com/user-attachments/assets/68867006-50a3-4e5d-ab17-5601b30e26e6)
  ![Untitled-1](https://github.com/user-attachments/assets/1a04cbea-c110-4f1d-9af1-ff0c95e57a19)
 
+## Experimentation
 
+Our initial experiment used 3 Convolutional Layers and trained the model for 7 epochs.
+An epoch simply means that the model has seen the entire training dataset once. So when we say 7 epochs, it means the model went through the training data 7 times, learning a bit more each time.
+
+Below are visualization of training plots:  
 
  ![Untitled](https://github.com/user-attachments/assets/c18c3d86-d3f7-47cd-afca-f756671a36b4)
+
+ As the epochs go on, both accuracy lines trend upward, it means the model is learning from the data and improving over time. By the 7th epoch, both training and validation accuracy are close to 90%. Even though the validation loss fluctuates a bit (which is normal, but learning rate can be changed to avoid this), the general downward trend means the model is becoming more confident and accurate in its predictions.
 

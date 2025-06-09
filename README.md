@@ -5,7 +5,7 @@
 ![muffin-meme2](https://github.com/user-attachments/assets/cea2d46a-9d9b-47ef-8331-0bfe0209f60a)
 
  
- Our team imported an existing dataset from Kaggle that contained testing and training datasets for muffins and chihuahuas. The dataset has 6,000 images of muffins and dogs.
+ Our team imported an existing dataset from Kaggle that contained testing and training datasets for muffins and chihuahuas. The dataset consists of 6,000 images of muffins and dogs.
 
 ```
 import kagglehub

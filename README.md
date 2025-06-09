@@ -28,7 +28,7 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
 
  ## Model
 
- We created simple CNN model starting with 3 Convolutional Layers 
+ We created a simple CNN model starting with 3 Convolutional Layers each of them followed by Max Pooling Layers. 
 
  ![Untitled](https://github.com/user-attachments/assets/c18c3d86-d3f7-47cd-afca-f756671a36b4)
 

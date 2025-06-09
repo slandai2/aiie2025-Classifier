@@ -5,4 +5,5 @@
 
  We then imported TensorFlow to assist in the idenification process. Two directories were created for testing and training our data. We then defined our image data generator before loading the data. We went on to build our sequential model through several Rectified Linear Unit layers and converted our classes into binary. We compiled our data and ran it through 8 epochs for 90% accuracy. 
 
- 
+ ![Untitled](https://github.com/user-attachments/assets/c18c3d86-d3f7-47cd-afca-f756671a36b4)
+

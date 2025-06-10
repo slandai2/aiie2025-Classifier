@@ -32,6 +32,23 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
  
  <img width="917" alt="Screenshot 2025-06-09 at 2 22 18 PM" src="https://github.com/user-attachments/assets/1e8d1336-0903-447d-890f-9a2cb1176991" />
 
+ Conv2D Layers: These are fundamental building blocks of Convolutional Neural Networks (CNNs) used for feature extraction from images. Each layer applies multiple filters that slide across the image, performing element-wise multiplication and summation to create activation maps. These filters help the network learn different features like edges, textures, or shapes.
+ 
+ MaxPooling2D: This layer reduces the spatial dimensions (height and width) of the feature maps while retaining the most important information. It does this by selecting the maximum value in each region (usually 2x2), which helps reduce computation and control overfitting.
+ 
+ Flatten Layer: It reshapes the multi-dimensional output from the convolutional layers into a one-dimensional vector, preparing the data for the dense (fully connected) layers.
+ 
+ Dense Layers: These are traditional fully connected layers where each neuron is connected to all neurons in the previous layer. They help the model learn complex patterns and relationships in the data. The final dense layer has a sigmoid activation function, indicating binary classification (Muffin vs. Chihuahua)
+
+ Dropout: Dropout is used to prevent overfitting by randomly setting 50% of the input units to zero during training
+
+The image below shows how our initial model looks like:
+ 
+ ![Unknown](https://github.com/user-attachments/assets/fb94be8d-d219-4142-986f-3b3730ef9519)
+ 
+
+
+
 
  ## Example Usage
 

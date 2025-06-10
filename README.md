@@ -42,6 +42,11 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
 
  Dropout: Dropout is used to prevent overfitting by randomly setting 50% of the input units to zero during training
 
+
+ Activation Functions decide whether a neuron should be activated or not, introducing non-linearity into the model so it can learn complex patterns. For all Conv2D layers we used ReLU activation function and for the last Dense layer we used Sigmoid function. 
+ * ReLU (Rectified Linear Unit) outputs the input directly if it’s positive; otherwise, it outputs zero. This helps the network learn faster and reduces the chance of vanishing gradients.
+ * Sigmoid squashes input values between 0 and 1, making it useful for binary classification tasks because it can be interpreted as a probability.
+
 The image below shows how our initial model looks like:
  
  ![Unknown](https://github.com/user-attachments/assets/fb94be8d-d219-4142-986f-3b3730ef9519)

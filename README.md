@@ -1,5 +1,5 @@
  ## Overview
- Image classification is an incredibly useful tool in regards to identifying small details or changes in previously existing data. Convolutional Neural Networks (CNNs) are sets of different forms of layers that learn image features and classify them according to a dataset. The combination of convolutional, max pooling, flatten, and dense layers are used to search through image data and connect their previously existing neurons to predict the classificaiton of a given image. For our classification model, our team decided on chihuahuas and muffins.
+ Image classification is an incredibly useful tool in regards to identifying small details or changes in previously existing data. Convolutional Neural Networks (CNNs) are sets of different forms of layers that learn image features and classify them according to a dataset. The combination of convolutional, max pooling, flatten, and dense layers are used to search through image data and connect their previously existing neurons to predict the classificaiton of a given image. For our classification model, our team decided to explore the differences in chihuahuas and muffins.
 
  
 ![muffin-meme2](https://github.com/user-attachments/assets/cea2d46a-9d9b-47ef-8331-0bfe0209f60a)
@@ -44,6 +44,7 @@ path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-cla
 
 Our initial experiment used 3 Convolutional Layers and trained the model for 7 epochs.
 An epoch simply means that the model has seen the entire training dataset once. So when we say 7 epochs, it means the model went through the training data 7 times, learning a bit more each time.
+https://docs.google.com/document/d/1aL7TsNyM5jmVpH8vkVLNhDZHusljWXCOHy_FGIBDWuQ/edit?tab=t.0
 
 Below are visualization of training plots:  
 

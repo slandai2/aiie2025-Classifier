@@ -52,5 +52,5 @@ Below are visualization of training plots:
 
  As the epochs go on, both accuracy lines trend upward, it means the model is learning from the data and improving over time. By the 7th epoch, both training and validation accuracy are close to 90%. Even though the validation loss fluctuates a bit (which is normal, but learning rate can be changed to avoid this), the general downward trend means the model is becoming more confident and accurate in its predictions.
 
-### Experiments with parameters layers
+### Experiments with parameters and layers
 

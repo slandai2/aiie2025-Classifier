@@ -64,8 +64,8 @@ The image below shows how our initial model looks like:
 
 ## Experimentation
 
-Our initial experiment used 3 Convolutional Layers and trained the model for 7 epochs.
-An epoch simply means that the model has seen the entire training dataset once. So when we say 7 epochs, it means the model went through the training data 7 times, learning a bit more each time.
+Our initial experiment used 3 Convolutional Layers and trained the model for 8 epochs.
+An epoch simply means that the model has seen the entire training dataset once. So when we say 8 epochs, it means the model went through the training data 8 times, learning a bit more each time.
 https://docs.google.com/document/d/1aL7TsNyM5jmVpH8vkVLNhDZHusljWXCOHy_FGIBDWuQ/edit?tab=t.0
 
 Below are visualization of training plots:  
@@ -75,4 +75,13 @@ Below are visualization of training plots:
  As the epochs go on, both accuracy lines trend upward, it means the model is learning from the data and improving over time. By the 7th epoch, both training and validation accuracy are close to 90%. Even though the validation loss fluctuates a bit (which is normal, but learning rate can be changed to avoid this), the general downward trend means the model is becoming more confident and accurate in its predictions.
 
 ### Experiments with parameters and layers
+
+Initially, we set the model with 3 Conv2D layers, 3 MaxPooling2D layers, and 2 Dense layers, and trained it for 8 epochs. This setup achieved an accuracy close to 90%, which is a great result for the first attempt.
+
+* Experiment 1:
+After this experiment, we decided to add a Dropout layer to prevent overfitting but kept all other parameters the same. With this small tweak, the model performed better and improved the test accuracy to 91%. It’s also clear from the plots that, compared to the initial model, this tweak made the curves smoother and less zigzaggy.
+
+![Unknown-5](https://github.com/user-attachments/assets/2d2432f7-a765-437f-9597-0d0010b7cd11)
+![Unknown-6](https://github.com/user-attachments/assets/f8f4d75c-df7b-4383-97f2-ce1d122fdd6f)
+
 

@@ -76,12 +76,28 @@ Below are visualization of training plots:
 
 ### Experiments with parameters and layers
 
-Initially, we set the model with 3 Conv2D layers, 3 MaxPooling2D layers, and 2 Dense layers, and trained it for 8 epochs. This setup achieved an accuracy close to 90%, which is a great result for the first attempt.
+Initially, we set the model with 3 Conv2D layers, 3 MaxPooling2D layers, and 2 Dense layers, and trained it for 8 epochs. This setup achieved an accuracy close to 90%, which was a great result for the first attempt.
 
-* Experiment 1:
+In all the experiments we conducted to find the best-performing model, we changed the number of Conv2D layers, epochs, activation functions, and learning rate, observing how each variation affected the model's performance. Some changes didn’t lead to noticeable improvements in accuracy, while others caused the model’s performance to drop significantly.
+
+After running all of these experiments, we identified our best and worst models based on their accuracy and the smoothness of their performance plots.
+
+Below, you can find details about these models and the parameters that led to them. 
+
+* Best Model:
 After this experiment, we decided to add a Dropout layer to prevent overfitting but kept all other parameters the same. With this small tweak, the model performed better and improved the test accuracy to 91%. It’s also clear from the plots that, compared to the initial model, this tweak made the curves smoother and less zigzaggy.
 
 ![Unknown-5](https://github.com/user-attachments/assets/2d2432f7-a765-437f-9597-0d0010b7cd11)
 ![Unknown-6](https://github.com/user-attachments/assets/f8f4d75c-df7b-4383-97f2-ce1d122fdd6f)
 
+* Worst Model:
+The worst model was observed when we used 2 Conv2D layers—one with the 'relu' activation function and the other with 'sigmoid'. The number of epochs was set to 8, and the learning rate was left at its default value.
 
+Below is a representation of this model's performance:
+
+<img width="1165" alt="Screenshot 2025-06-10 at 1 20 45 PM" src="https://github.com/user-attachments/assets/5cb0ba86-fbbc-452a-bc09-583190799c40" />
+
+
+
+
+  
